@@ -1,96 +1,149 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum Vitae</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-        }
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Google Fots -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+      <!-- Remixicon Icon -->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+      <!-- Remixicon Icon -->
+      <!-- Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <!-- Main CSS -->
+      <link href="assets/css/main.css" rel="stylesheet">
 
-        header {
-            text-align: center;
-            margin-bottom: 20px;
-        }
 
-        h1, h2 {
-            color: #333;
-        }
-
-        section {
-            margin-bottom: 30px;
-        }
-
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        li {
-            margin-bottom: 10px;
-        }
-
-        .education, .experience {
-            margin-top: 20px;
-        }
-
-        .skills {
-            margin-top: 20px;
-        }
-    </style>
-</head>
-<body>
-
-    <header>
-        <h1>Gunarno</h1>
-        <p>Curriculum Vitae</p>
+    <title>Gunarno</title>
+  </head>
+  <body>
+   
+    <!-- header -->
+    <header class="ds-header" id="site-header">
+        <div class="container">
+            <div class="ds-header-inner">
+              <!-- logo -->
+              <a href="index.html" class="ds-logo">
+                <span>G</span>Gunarno
+              </a>
+              <!-- logo -->
+              <!-- social -->
+              <ul class="ds-social">
+                <li><a href="https://github.com/gunarno" target="_blank"><i class="ri-github-fill"></i></a></li>
+                <li><a href="#" target="_blank"><i class="ri-stack-overflow-line"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/gunarno-04411a7b/" target="_blank"><i class="ri-linkedin-fill"></i></a></li>
+              </ul>
+              <!-- social -->
+            </div>
+        </div>
     </header>
+    <!-- header -->
+    <!-- banner -->
+    <div class="ds-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
+            <figure>
+              <img src="assets/images/profile-image.jpg">
+            </figure>
+          </div>
+          <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
+            <section>
+                <h1>
+                  <span>HI THERE</span>
+                  I’m Gunarno <br> Full Stack Software Developer based in Indonesia.
+                </h1>
+                <ul class="ds-numbervalulist">
+                  <li>
+                    <strong>6+</strong>
+                    <span>Experience</span>
+                  </li>
+                  <li>
+                    <strong>15+</strong>
+                    <span>Projects</span>
+                  </li>
+                  <li>
+                    <strong>3+</strong>
+                    <span>Skills</span>
+                  </li>
+                </ul>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- banner -->
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
-    </section>
+    <!-- about -->
+    <div class="ds-about-section">
+      <div class="container">
+        <section>
+            <h2 class="ds-heading">About Me</h2>
+            <p>I am a hardworking individual who always learns new things to improve my quality. Being useful to the people around me is one of my life goals. The experience of applying the AGILE concept has provided many benefits for the growth of the team to achieve a target. SCRUM is an agile framework that we use to deliver value to related parties.</p>
+            
+        </section>
+      </div>
+    </div>
+    <!-- about -->
 
-    <section id="education" class="education">
-        <h2>Education</h2>
-        <ul>
-            <li>
-                <h3>University Name</h3>
-                <p>Bachelor's Degree in Your Field - Year</p>
-            </li>
-        </ul>
-    </section>
+    <!--  Skills -->
+    <div class="ds-skills-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+             <h2 class="ds-heading">Core Skills</h2>
+             <ul class="ds-skills-list">
+               <li>C#</li>
+               <li>Java</li>
+               <li>PostgreSQL</li>
+               <li>MySQL</li>             
+               <li>Github</li>
+               <li>Docker</li>
+             </ul>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            <h2 class="ds-heading">Other Skills</h2>
+            <ul class="ds-skills-list">
+              <li>Storyblok</li>
+              <li>PWAs</li>
+              <li>Responsive Web Design</li>
+              <li>React</li>
+              <li>Vuetify</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  Skills -->
+  
 
-    <section id="experience" class="experience">
-        <h2>Work Experience</h2>
-        <ul>
-            <li>
-                <h3>Company Name</h3>
-                <p>Position - Date Range</p>
-                <p>Description of responsibilities and achievements.</p>
-            </li>
-        </ul>
-    </section>
+   <!--  footer -->
+   <footer class="ds-footer text-center">
+     <div class="container">
+        <section>
+          <span>Stay in touch</span>
+          <h4>Ready to talk?</h4>
+          <p>Feel free to contact us</p>
+          <a href="mailto:ngertos@gmail.com" class="ds-button">Lets Talk</a>
+        </section>
+        <span class="ds-copyright">© 2024 All rights reserved.</span>
+     </div>
+   </footer>
 
-    <section id="skills" class="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Technical Skill 1</li>
-            <li>Technical Skill 2</li>
-            <!-- Add more skills as needed -->
-        </ul>
-    </section>
 
-    <section id="contact">
-        <h2>Contact Information</h2>
-        <p>Email: your.email@example.com</p>
-        <p>Phone: +123 456 789</p>
-        <p>LinkedIn: linkedin.com/in/yourusername</p>
-        <!-- Add more contact information as needed -->
-    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-</body>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
